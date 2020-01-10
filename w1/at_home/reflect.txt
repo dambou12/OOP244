@@ -1,0 +1,18 @@
+1- In general, a namespace uniquely identifies a set of names so
+ that there is no ambiguity when objects having different origins but
+the same names are mixed together.For example we have 2 functions with the
+same name and same code but a different return .to avoid the ambiguity ,we will
+namespace to uniquely identifies every function.
+
+2-The header file is important because its allows easier dividing program
+code to many files then source code becomes more readable and understandable
+
+3-we should not compile header files because its not containt a program just
+a declaration of prototype and global variable
+
+4-You should never include a cpp file ( or anything that is not a header ).
+If you want to compile a file, pass it to the compiler.
+If you both #include and compile a source file, you'll get multiple definition e
+
+5-I learned difference between header file (header.h)and main file (main.cpp).i 
+also learn how to compile program with multiple file

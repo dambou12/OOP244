@@ -1,0 +1,35 @@
+1)      What is a safe empty state? Could you define a safe empty state that
+ differs from the empty state that you defined?
+ANSWER:
+the safe empty state means the default state,which has to be set to the values ,
+if user'd input was invalid.
+i used 0 ,however for the workshop we could use any random character or number,
+except for alphabet character for char arrays and for intiger numbers.I still
+ believe that 0 is the best suitable value,but it could be any value ,which 
+would beoutside of the specified range for years,months and days values
+
+2)      Identify the parts of your source code where to minimized code 
+duplication.
+
+ANSWER:
+ validate name and destination.validate date so I use function validstring 
+and function validdate to minimized code
+
+3)      The canTravelWith(...) member function accesses the private data 
+of the object referenced in its parameter. Explain why C++ allows this access.
+ANSWER:
+the canTravelWith() can accesses the private data because he is the public data
+then in c++ members of class can access to the private data
+
+4)      What statement did you add to ensure that the strncpy(...)
+ function exe-cutes correctly?
+ANSWER:
+I added a null terminator after using strncpy(...).
+
+5)      Explain what you have learned in this workshop.
+ANSWE:
+I've learnt to not trust VS and to empty my char arrays. As well, I've learnt
+how to use strcmp, cause I haven't used it before; how to overload constructors
+ and set empty state for the validation purposes. Still learning to comment everything
+I code. And I've learnt to not forget to input "const" to query functions,which
+don't modify data.

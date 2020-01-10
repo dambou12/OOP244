@@ -1,0 +1,24 @@
+1. How many elements are there in each C-style character string that stores a
+ family or given name for the account? Why?
+
+answer1:
+There are 41 elements in the character arrays for family and given names. 
+This is because max_name_length was 40 and an additional element for 
+the null byte was included during the declaration of the arrays.
+
+
+2. Your class declares two member functions named set(...).  In C, 
+this would generate an error.  Name the feature of C++ that allows this.
+
+answer2:
+The feature called function overloading in C++ allows this. The C++ 
+compiler can differentiate between two member functions with the same 
+identifier as long as they have different parameter types and order.
+
+
+3. What have you learned during this workshop?
+
+answer3:
+I learned about the Luhn algorithm used in identificaion (e.g. SIN) 
+verification and its implementation in C++ without the use of an array to 
+store the ID. I was also able to practice the use of overloaded functions.

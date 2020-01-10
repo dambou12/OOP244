@@ -1,0 +1,79 @@
+Script started on Tue 25 Sep 2018 09:11:35 PM EDT
+==========
+Input data
+==========
+Enter the number of Kingdoms: 2
+Kingdom #1: 
+Enter the name of the Kingdom: The_Vale
+Enter the number of people living in The_Vale: 234567
+Kingdom #2: 
+Enter the name of the Kingdom: The_Reach
+Enter the number of people living in The_Reach: 567890
+==========
+
+------------------------------
+The 1st Kingdom entered is
+------------------------------
+The_Vale, population 234567
+------------------------------
+
+==========
+Input data
+==========
+Kingdom #3: 
+Enter the name of the Kingdom: The_Riverlands
+Enter the number of people living in The_Riverlands: 123456
+==========
+
+------------------------------
+Kingdoms of SICT
+------------------------------
+1. The_Vale, population 234567
+2. The_Reach, population 567890
+3. The_Riverlands, population 123456
+------------------------------
+Total population of SICT: 925913
+------------------------------
+
+*** Error in `ws': free(): invalid next size (fast): 0x0000000000d55060 ***
+======= Backtrace: =========
+/lib64/libc.so.6(+0x7c619)[0x7f78e8b51619]
+ws[0x40106f]
+/lib64/libc.so.6(__libc_start_main+0xf5)[0x7f78e8af6c05]
+ws[0x400a29]
+======= Memory map: ========
+00400000-00402000 r-xp 00000000 00:28 2159730243                         /home/stchoutatgoum/oop244/w2/at_home/ws
+00601000-00602000 r--p 00001000 00:28 2159730243                         /home/stchoutatgoum/oop244/w2/at_home/ws
+00602000-00603000 rw-p 00002000 00:28 2159730243                         /home/stchoutatgoum/oop244/w2/at_home/ws
+00d55000-00d76000 rw-p 00000000 00:00 0                                  [heap]
+7f78e4000000-7f78e4021000 rw-p 00000000 00:00 0 
+7f78e4021000-7f78e8000000 ---p 00000000 00:00 0 
+7f78e8ad5000-7f78e8c8d000 r-xp 00000000 fd:00 31789                      /usr/lib64/libc-2.17.so
+7f78e8c8d000-7f78e8e8d000 ---p 001b8000 fd:00 31789                      /usr/lib64/libc-2.17.so
+7f78e8e8d000-7f78e8e91000 r--p 001b8000 fd:00 31789                      /usr/lib64/libc-2.17.so
+7f78e8e91000-7f78e8e93000 rw-p 001bc000 fd:00 31789                      /usr/lib64/libc-2.17.so
+7f78e8e93000-7f78e8e98000 rw-p 00000000 00:00 0 
+7f78e8e98000-7f78e8ead000 r-xp 00000000 fd:00 507                        /usr/lib64/libgcc_s-4.8.5-20150702.so.1
+7f78e8ead000-7f78e90ac000 ---p 00015000 fd:00 507                        /usr/lib64/libgcc_s-4.8.5-20150702.so.1
+7f78e90ac000-7f78e90ad000 r--p 00014000 fd:00 507                        /usr/lib64/libgcc_s-4.8.5-20150702.so.1
+7f78e90ad000-7f78e90ae000 rw-p 00015000 fd:00 507                        /usr/lib64/libgcc_s-4.8.5-20150702.so.1
+7f78e90ae000-7f78e91af000 r-xp 00000000 fd:00 31798                      /usr/lib64/libm-2.17.so
+7f78e91af000-7f78e93ae000 ---p 00101000 fd:00 31798                      /usr/lib64/libm-2.17.so
+7f78e93ae000-7f78e93af000 r--p 00100000 fd:00 31798                      /usr/lib64/libm-2.17.so
+7f78e93af000-7f78e93b0000 rw-p 00101000 fd:00 31798                      /usr/lib64/libm-2.17.so
+7f78e93b0000-7f78e9499000 r-xp 00000000 fd:00 32180                      /usr/lib64/libstdc++.so.6.0.19
+7f78e9499000-7f78e9699000 ---p 000e9000 fd:00 32180                      /usr/lib64/libstdc++.so.6.0.19
+7f78e9699000-7f78e96a1000 r--p 000e9000 fd:00 32180                      /usr/lib64/libstdc++.so.6.0.19
+7f78e96a1000-7f78e96a3000 rw-p 000f1000 fd:00 32180                      /usr/lib64/libstdc++.so.6.0.19
+7f78e96a3000-7f78e96b8000 rw-p 00000000 00:00 0 
+7f78e96b8000-7f78e96d9000 r-xp 00000000 fd:00 21663                      /usr/lib64/ld-2.17.so
+7f78e98c1000-7f78e98c6000 rw-p 00000000 00:00 0 
+7f78e98d5000-7f78e98d9000 rw-p 00000000 00:00 0 
+7f78e98d9000-7f78e98da000 r--p 00021000 fd:00 21663                      /usr/lib64/ld-2.17.so
+7f78e98da000-7f78e98db000 rw-p 00022000 fd:00 21663                      /usr/lib64/ld-2.17.so
+7f78e98db000-7f78e98dc000 rw-p 00000000 00:00 0 
+7ffd1b9dd000-7ffd1b9fe000 rw-p 00000000 00:00 0                          [stack]
+7ffd1b9fe000-7ffd1ba00000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+
+Script done on Tue 25 Sep 2018 09:12:51 PM EDT

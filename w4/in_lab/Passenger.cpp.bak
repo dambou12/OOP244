@@ -1,0 +1,64 @@
+/**********************************************************
+// Workshop 4: Constructor
+// CRA_Account.h
+// Version 2.1
+// 6/8/2018
+// tchoutedjoum dambou serges
+// Description
+// 
+
+**********************************************************/
+// TODO: add file header comments here
+
+// TODO: add your headers here
+#include <iostream>
+#include <cstring>
+#include "Passenger.h"
+using namespace std;
+// TODO: continue your namespace here
+namespace sict {
+	// TODO: implement the default constructor here
+	Passenger::Passenger() {
+		*C_name = '\0';
+		*C_destination = '\0';
+	};
+	// TODO: implement the constructor with 2 parameters here
+	Passenger::Passenger(const char *Name, const char *Destination) {
+
+		if (Name == '\0' || Destination == '\0') {
+			*C_name = '\0';
+			*C_destination = '\0';
+		}
+		else {
+
+			strcpy(C_name, Name);
+			strcpy(C_destination, Destination);
+		}
+
+	}
+	// TODO: implement isEmpty query here
+	bool Passenger::isEmpty()const
+	{
+
+		if (*C_name == '\0' || *C_destination == '\0' || C_destination == nullptr || C_name == nullptr)
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}
+	}
+	// TODO: implement display query here
+	void Passenger::display() const {
+		if (!isEmpty()){
+		cout << C_name << " - " << C_destination << endl;
+		}
+		else {
+			cout << "No passenger!"<<endl;
+		
+	}
+	
+
+	}
+}

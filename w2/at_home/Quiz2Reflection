@@ -1,0 +1,23 @@
+[1] Who is responsible for allocating memory for statically allocated object?                          1
+		      a) Assembler   b) Compiler   c) Interpreter
+
+ ANSWER1:b)COMPILER
+[2] Which of these is the right example for dynamicmemory allocationof integer object?     1
+	       a) int *x = new int;   b) int x = new *int;  c)int *x = int new
+
+ANSWER2 :a) int *x=new int;
+
+[3] Which of the following in Object Oriented Programming is supported  byFunctionoverloading and default arguments features of C++.                                                                                   1
+		   a) inheritance    b) polymorphism   c) encapsulation
+
+ANSWER3:b)polymorphism
+
+[3] What is the output of this program?
+
+ANSWER3: 5
+	 0
+	 7
+
+
+[4] ANSWER:4
+ERROR

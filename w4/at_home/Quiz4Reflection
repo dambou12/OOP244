@@ -1,0 +1,33 @@
+Student Name _________________________________  Student Number _________________________
+Closed Book.  Write your answers to all questions on this sheet. Marks are in parentheses.
+
+1 (1) A binary member operator receives _______a)_________ parameters (select one of the following)
+a)      one
+2 (1) C++ defines (select one of the following) a) one ternary operator
+3 (1) C++ lets us define new operators using new symbols from the character set (select one)
+a)      
+b)      no
+4 (2) Write the signatures of the post-fix and pre-fix increment (++) operators for the class OOP244:
+a)      Post-fix ___OOP244 OPERATOR ++(INT)__________
+b)      Pre-fix __   OOP244& OPERATOR ++();______________
+5 (1) Add the declaration that enables casting from an int to an OOP244 object to the following class definition.
+	class OOP244 {
+		int noOfStudents;
+		long studentNumber[40];
+	public:
+		OOP244();
+
+_______________OOP244(INT)_________________________________
+		OOP244(const long*, int);
+		// other member functions
+	};
+
+6 (1) The helper + operator for class OOP244 receives ________________ (select one)
+a)     
+b)      two parameters
+7 (1) The keyword __FREIND______________ grants a helper function access to the private members of a class.
+8 (2) Code the prototypes for two helper operators that add a long to an object of class OOP244. Each operator returns the result of the addition as an object of class OOP244:
+a)      adds a long to an  OOP244    OOP244  operator+(const OOP244& LONG);
+ S   ________________________________________________
+b)      adds an OOP244 to a long _______Student operator+(LONG, const OOP244&)___________________________________________
+

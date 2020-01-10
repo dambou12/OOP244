@@ -1,0 +1,128 @@
+/**********************************************************.
+// Workshop 4: Constructor.
+// CRA_Account.h.
+// Version 2.1.
+// 6/8/2018.
+// tchoutedjoum dambou serges.
+// Description.
+// Implementation file for the class Passenger
+.
+**********************************************************/
+// TODO: add your headers here
+#include <iostream>
+#include <cstring>
+#include "Passenger.h"
+using namespace std;
+// TODO: continue your namespace here
+namespace sict {
+	// TODO: implement the default constructor here
+	Passenger::Passenger() {
+		EmptyState();
+
+	};
+	// TODO: implement the constructor with 2 parameters here
+	Passenger::Passenger(const char *Name, const char *Destination) {
+
+		if (strcmp(Name, " ")!=0  && strcmp(Destination, " ")!=0) {
+			C_month = 7;
+			C_day = 1;
+			C_year = 2017;
+		}else {
+
+			EmptyState();
+		}
+
+	}
+	// TODO: implement isEmpty query here
+	bool Passenger::isEmpty()const
+	{
+
+		if (strlen(C_name)==0||strlen(C_destination)==0)
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}
+	}
+
+	// TODO: implement display query here
+	void Passenger::display() const {
+		int prefix = 0;
+		if (C_month>9) {
+			cout << C_name << " - " << C_destination << " on " << C_year << "/" << C_month << "/" << C_day << endl;
+		}
+		else {
+			cout << C_name << " - " << C_destination << " on " << C_year << "/" << prefix << C_month << "/" << C_day << endl;
+
+		}
+	  }
+
+	//set empty
+	void Passenger::EmptyState() {
+		strcpy(C_name, "\0");
+		strcpy(C_destination, "\0");
+		C_year = 0;
+		C_month = 0;
+		C_day = 0;
+	
+	};
+	//setter for 5
+	void Passenger::setterlong(int year, int month, int day) {
+		C_day = day;
+		C_month = month;
+		C_year = year;
+	}
+	// inrange function
+	bool Passenger::inRange(int y, int lst, int grt) const
+	{
+		return (y >= lst && y <= grt) ? true : false;
+	}
+	//return name
+	const char * Passenger::name() const {
+		
+  
+
+	if (C_name==0)
+			return "";
+		else
+			return C_name;
+	};
+	 //CHECK IF PASSENGER CAN TRAVEL 
+	bool Passenger::canTravelWith(const Passenger& check ) const {
+	
+
+		
+			if (!(strcmp(check.C_destination, C_destination)) && check.C_year == C_year && check.C_month == C_month && check.C_day == C_day){
+			
+				return true;
+		    }    
+	   return true;
+		};
+		
+	
+	//passenger 5  arguments
+	Passenger::Passenger(const char *Name, const char *Destination, int year, int month, int day) {
+		*this = Passenger();
+
+		if (Name && Destination && year && month && day) {
+
+
+			if ((strcmp(Name, " ")) && strcmp(Destination, " ")) {
+
+				if (inRange(year, 2017, 2020) && inRange(month, 1, 12) && inRange(day, 1, 31)) {
+
+					strcpy(C_name, Name);
+					strcpy(C_destination, Destination);
+
+					C_year = year;
+					C_month = month;
+					C_day = day;
+				}
+
+			}
+
+		}
+	};
+}

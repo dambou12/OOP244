@@ -1,0 +1,17 @@
+1-The header file most be included while  using cout function in c++ program is
+ IOSTREAM
+
+2-The variable that contains address of another variable is called as POINTER
+
+3-ABSTRATION,ENCAPSULATION,INHERITANT AND POLYMORPHISM are main charateristics of objective
+oriented programing
+
+4-namespace is important because ITS AVOID NAMING CONFLICT
+
+5-COMPUTER.H AND COMPUTER.CPP are the file named of a module call "computer"
+
+6-TRUE .Encapsulation hides the implementation details within a class
+
+7-FALSE.syntatic errors doesnt fail to implement the meaning of the program
+
+8-FALSE.Modules implementationfile defines function protatypes

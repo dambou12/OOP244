@@ -1,0 +1,6 @@
+244_w1_home_seneGraph.cpp:12:17: error: ‘sict’ is not a namespace-name
+ using namespace sict;
+                 ^
+244_w1_home_seneGraph.cpp:12:21: error: expected namespace-name before ‘;’ token
+ using namespace sict;
+                     ^

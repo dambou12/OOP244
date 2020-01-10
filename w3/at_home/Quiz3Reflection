@@ -1,0 +1,17 @@
+5-FIND THE OUTPUT
+#include <iostream>
+using namespace std;
+int main() {
+double a = 2.2345;
+cout << "1234567890" << endl;
+cout.fill(*);
+cout.width(10);
+cout.setf(ios::left);
+cout.setf(ios::fixed);
+cout.precision(2);
+cout << a << endl;
+}
+
+ANSWER:
+   1234567890
+   2.23******

@@ -1,0 +1,15 @@
+4-#incclude Item{Int sku;double price;}
+void discount(Item &tr){
+tr.price *=0.50;
+}
+int main (){
+Item apple =[4664,1.47);
+discount(apple0
+5-
+float *b[6];
+6-
+double xxxx=new double;
+7-
+delete my courses[10]
+8-
+struct Item

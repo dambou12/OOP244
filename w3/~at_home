@@ -1,0 +1,61 @@
+Quiz 2 
+
+1 (1) A member function can be a query or a modifier. Which C++ keyword identifies is as a query?
+			CONST.
+2 (1) A function that is a member function of the class named MyClass. What prefix do you add to the function definition in an implementation file (.cpp)?
+			 MYCLASS::
+3 (3) Correct the statements in main() so that it compiles with your definition of OOP244. Do not change your definition of OOP244:
+#include <iostream>
+class OOP244 {
+int noStudents;
+public:
+void set(int n) { noStudents = n; }
+void display() { std::cout << noStudents << std::endl; }
+};
+int main() {
+sectionAB.OOP244;
+sectionAB.noStudents = 79;
+display();
+}
+4 (1) Write the statement that removes the next character from the standard input buffer?
+	cin.ignore();
+5 (1) The width() member function of the ostream class applies to (check one of the following):
+All fields until it is changed _____ The next field only __true_______
+
+6 (3) This program displays the number e to 4 decimal places in a field of 10 on standard output. Add the missing statements:
+#include <iostream>
+int main() {
+double e = 2.71828182845;
+std::cout << e << std::endl;
+
+
+
+
+
+QUIZ 1
+
+1 (1) What is the data type of price in the following statement:
+	auto price = 45;   int
+2 (1) A definition is a declaration (answer one of true or false):
+	true__x______            false___________
+3 (1) A function's signature consists of the function's identifier, the function's parameters and
+	_______other_____________________________________
+4 (3) The following program passes apple in the main program by reference to function discount().  Fill in the blanks
+	#include <iostream>
+	struct Item { int sku; double price; };
+	void discount(Item __&It_______________________) {
+		____________It.price *= 0.50;
+	}
+	int main() {
+		Item apple = {4664, 1.47};
+		discount(______apple________________);
+		std::cout << apple.sku << ": " << apple.price;
+	}
+5 (1) Write a statement that declares an array of 6 pointers to floats in statically allocated memory
+				  float *myb[6];
+6 (1) Declare the type of xxx in the statement below (complete the first part of the statement)
+	______double_________ xxx = new double[n];
+7 (1) Write a statement that deallocates the dynamically allocated memory for array myCourses[10]:
+	____________delete mycourses[]____________________________
+8 (1) Write a forward declaration of the struct Item defined in the program in question 4 above
+	____________________________struct Item;________________
